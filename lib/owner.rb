@@ -46,8 +46,15 @@ class Owner
   end
 
   def walk_dogs
-    @pets[:dogs] =
-  end
+    @pets.map do |key, value|
+      if key == :dogs
+        value 0
+      end #if
+    end #@pets.map do
+  end #def walk_dogs
+  #reach inside hash
+  #get dog object
+  #update dog object's mood
 
 puts "END."
 
