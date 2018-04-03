@@ -45,7 +45,8 @@ class Owner
     @pets[:dogs] << d
   end
 
-  
+  def walk_dogs
+  end
 
 puts "END."
 
