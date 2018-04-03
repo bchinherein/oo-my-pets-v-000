@@ -48,7 +48,7 @@ class Owner
   def walk_dogs
     @pets.map do |key, value|
       if key == :dogs
-        value 0
+        
       end #if
     end #@pets.map do
   end #def walk_dogs
